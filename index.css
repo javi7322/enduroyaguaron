@@ -1,0 +1,219 @@
+* {
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 2em;
+  font-family: 'Trade Winds', cursive;
+}
+h3 {
+  font-size: 1.5em;
+  font-family: 'Trade Winds', cursive;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+p {
+  font-size: 1rem;
+}
+a {
+  font-family: arial;
+  font-size: 1rem;
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  border-style: solid;
+  border-color: rgb(133, 133, 133);
+  border-width: 1px;
+  border-width: 1px;
+  margin: auto;
+  background-image: url(yagua13.jpg);
+  background-repeat: repeat;
+}
+
+header {
+  background-color: black;
+}
+
+header .logo {
+  display: block;
+  flex-direction: column;
+  margin: 0;
+  padding: 7px 30px;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 3em;
+  color: antiquewhite;
+  text-align: center;
+}
+
+header a {
+    font-family: 'Bangers', cursive;
+  font-size: 2em;
+  padding: 0px 15px;
+}
+
+header nav {
+  border-top-style: solid;
+  border-width: 1px;
+  color: rgb(133, 133, 133);
+  position: static;
+  background-color: rgb(39, 35, 35);
+  text-align: center;
+}
+a:hover,
+.navh{
+  background-color: aliceblue;
+  transition: 1s;
+}
+
+section {
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-width: 1px;
+  width: 75%;
+  display: block;
+  background-image: url(yagua12.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: aliceblue;
+  padding-left: 5px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.caja {
+  color: antiquewhite;
+  width: 15vw;
+  float: right;
+  margin: 2% 4.5%;
+  display:block;
+
+  
+}
+
+#fim {
+  background-image: url(world-enduro.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 1px rgb(0, 0, 0);
+  height: 22vh;
+  width: 100%;
+  transition: 1s;
+  display: inline-block;
+}
+#fim:hover {
+  transition-duration: 300ms;
+  transition-timing-function:ease-in-out;
+  transform: scale(1.05);
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#gpe {
+  background-image: url(EnduroGP.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 1px rgb(0, 0, 0);
+  height: 22vh;
+  width: 100%;
+  margin-top: 4vh;
+  display: inline-block;
+  transition: 1s;
+}
+#gpe:hover {
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+  transform: scale(1.05);
+}
+
+#ecs {
+  background-image: url(descarga.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 1px rgb(0, 0, 0);
+  height: 22vh;
+  width: 100%;
+  margin-top: 4vh;
+  transition: 1s;
+  display: inline-block;
+}
+
+#ecs:hover {
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+  transform: scale(1.05);
+}
+
+main {
+  color: aliceblue;
+  background-image: url(fondo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  float: left;
+  width: 100%;
+}
+
+.main p,
+h1 {
+  padding: 20px;
+  text-align: center;
+}
+
+.box2 h1,
+h3,
+p {
+  padding: 10px;
+  text-align: center;
+}
+
+.box2 h1 {
+  font-size: 4em;
+  margin: 0;
+  height: auto;
+}
+
+.box2 h3 {
+  font-size: 3em;
+  margin: 0px;
+  height: auto;
+  padding: 0 0;
+}
+.box2 p {
+  width: 40%;
+}
+
+body {
+  background-color: rgb(39, 35, 35);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 99%;
+  position: static;
+}
+
+footer {
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  float: left;
+}
+
+footer h4 {
+  text-align: center;
+  color: antiquewhite;
+}
+
+iframe {
+  height: 20rem;
+  width: 25rem;
+  margin: 1rem 1rem;
+  opacity: 0.7;
+  float: left;
+}
